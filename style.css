@@ -48,6 +48,7 @@ button {
     width: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-two {
@@ -58,6 +59,15 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    gap: 40px;
+    align-items: center;
 }
 
 .image-one,
@@ -79,4 +89,10 @@ button {
     /* gap: 35px; */
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.start-over {
+    border-radius: 30px;
+    border: 2px hotpink solid;
+    color: black;
 }
