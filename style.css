@@ -6,16 +6,24 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.greeting {
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 .header {
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 a {
     text-decoration: none;
     font-size: larger;
+    font-weight: bold;
 }
 
 button {
@@ -45,11 +53,12 @@ button {
     width: auto;
 }
 
-.intro-3 {
+.intro {
     width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 10px ;
 }
 
 .container-two {
@@ -76,23 +85,44 @@ button {
 .image-three,
 .image-four,
 .image-five {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 300px;
     display: flex;
     flex-wrap: wrap;
+    flex: 1 0;
 }
 
 .images {
     display: flex;
     font-size: 20px;
     height: auto;
-    width: 250px;
+    width: auto;
     /* gap: 35px; */
     flex-wrap: wrap;
     justify-content: center;
+    Flex: 1;
+}
+
+.valentines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 30px;
 }
 
 .start-over {
-    border-radius: 30px;
+    border-radius: 50px;
+    padding: 3px;
     border: 2px hotpink solid;
+    margin-bottom: 20px;
 }
